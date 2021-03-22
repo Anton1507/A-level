@@ -1,0 +1,93 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+
+.head-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(211, 183, 20);
+}
+
+.nav-list>li {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.left-asite {
+    display: flex;
+    justify-content: center;
+    width:30%;
+    background-color: rgb(156, 177, 199);
+}
+
+.right-asite {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background-color: rgb(199, 152, 185);
+    order: -1;
+}
+
+.foot {
+    display: flex;
+    width: 100%;
+    background-color: rgb(131, 231, 131);
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.carts {
+    width: 30%;
+    border: rgb(0, 0, 0) solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20%;
+}
+
+.carts img {
+    border-radius: 90%;
+    width: 120px;
+    border: rgb(199, 183, 183) solid 10px;
+    margin-top: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(104, 81, 116);
+    border-radius: 30%;
+    width: 20%;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+}

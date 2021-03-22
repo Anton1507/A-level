@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.box{
+    width: 350px;
+    height:220px;
+    padding: 15px 10px 20px 10px ;
+    margin-bottom: 30px;
+    border-style:dashed;
+    border-width:2px;
+    border-color:red;
+    background-color:green;
+}
+.box-2{
+    width: 70%;
+}
+.clearfix:after { 
+    content: " ";      
+    display: table;    
+    clear: both; 
+}
+.pic-1{float: left;
+    margin:20px;
+   
+}
+.pic-2{float:right;
+    max-height:250px; 
+    max-width: 200px;
+    margin:20px;
+}
+

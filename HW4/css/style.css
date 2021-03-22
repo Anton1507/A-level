@@ -1,0 +1,95 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.box-1{
+    width:600px;
+    min-height:600px;
+    background-color: #0d5825;
+    position: relative;
+}
+blockquote {
+    font-size: 25px;
+    color: white;
+    position:absolute;
+    left:40px;
+}
+cite{
+    display: block;
+    margin-left: 120px;
+    margin-top:-20px;
+}
+.karta-1{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left:50%;
+    top:45%;
+    transform: rotate(5deg);
+    z-index: 3;
+}
+.karta-2{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left:40%;
+    top:42%;
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+.karta-3{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left:32%;
+    top:41%;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+.karta-1:hover{
+    transform: translateY(-50px) rotate(5deg) ;
+    transition:0.5s;
+}
+.karta-2:hover{
+    transform: translateY(-50px) rotate(-10deg) ;
+    transition:0.5s;
+}
+.karta-3:hover{
+    transform: translateY(-50px) rotate(-30deg) ;
+    transition:0.5s;
+}
+.color-box{
+    width:600px;
+    min-height: 300px;
+    position: relative;
+    background-color: whitesmoke;
+    opacity: 0.5;
+}
+.red-box{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    z-index: -2;
+    position: absolute;
+    left:24%;
+    top:15%;
+}
+.blue-box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: -1;
+    position: absolute;
+    left:30%;
+    top:30%;
+}
+.green-box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    z-index: -2;
+    position: absolute;
+    left:36%;
+    top:45%;
+}
