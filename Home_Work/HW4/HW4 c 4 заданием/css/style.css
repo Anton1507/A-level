@@ -1,0 +1,20 @@
+.box{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 100px;
+}
+.square{
+width: 100px;
+height: 100px;
+}
+@keyframes runing-square{
+    0%{background-color: red;}
+    25%{transform: translate(400px, 0);background-color: yellow;}
+    50%{transform: translate(400px, 400px);background-color: green;}
+    75%{transform: translate(0, 400px);;background-color: blue;}
+    100%{background-color: red;}
+}
+.square{
+    animation: runing-square 3s ease-in-out 0s infinite reverse ;
+}

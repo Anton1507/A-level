@@ -1,0 +1,73 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.menu{
+    max-width: 50px;
+    min-height: 400px;
+    background-color: gray;
+    position: relative;
+   
+}
+.name-box{
+    color: white;
+    transform: translateY(200px) rotate(90deg);
+    white-space:nowrap;
+    vertical-align:baseline;
+}
+.dropmenu{
+    display: none;
+    background-color: gray;
+    position: absolute;
+    transform: translateY(0px)translateX(50px);
+    
+    
+}
+.menu-line{
+    
+    display: block;
+    margin:25px 150px 50px -50px;
+    list-style: none;
+    
+}
+.menu-line a{
+    text-decoration:none;
+    color: white;
+    line-height:2;
+    white-space:nowrap;
+    
+}
+.menu:hover .dropmenu{
+    display: block;
+    min-height: 400px;
+    max-width: 300px;
+}
+.menu:hover .name-box{
+    display: none;
+}
+.home:hover,
+.contacts:hover,
+.team:hover,
+.faq:hover,
+.about:hover,
+.news:hover  {
+    color: orange;
+}
+.home::before,
+.contacts::before,
+.team::before,
+.faq::before,
+.about::before,
+.news::before{
+    display: inline-block;
+    width: 10px;
+	height: 10px;
+	background:orange;
+    margin-right: 10px;
+    border: 1px solid black;
+    transform: rotate(45deg);
+    content: "";
+}
+
+

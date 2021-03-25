@@ -1,0 +1,38 @@
+blockquote{
+    color: red;
+}
+a[href^='https://'] {
+    color: red;
+}
+.list>li:last-child a {
+    color:green;
+}
+ul+p{
+    font-size: 26px;
+}
+.text-box>h3:first-child{
+    color: pink;
+}
+#greycol{
+    color:grey;
+}
+.text-box div p{
+    color:red;
+}
+.text-box p:nth-child(7){
+    color:green;
+}
+.yellow{
+    color:yellow;
+}
+.bg-box{
+    width: 800px;
+    height: 600px;
+    background-color: green;
+    background-image:url(../img/dom.jpg),url(../img/grass.png), url(../img/hedgehog.png),url(../img/lamp.png),url(../img/ponch.png);
+    background-position: center, bottom,left,top,right;
+    background-repeat: no-repeat,repeat-x,repeat-y,repeat-x,repeat-y;
+    background-size: 60%,20%,5%,5%,5%;
+    
+    
+}
